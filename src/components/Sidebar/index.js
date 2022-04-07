@@ -20,21 +20,21 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faHome} color="#fd1952" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faUser} color="#fd1952" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faEnvelope} color="#fd1952" />
             </NavLink>
         </nav>
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/amanda-r-thompson/'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#fd1952" />
                 </a>
             </li>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://github.com/mandathompson'>
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="#fd1952" />
                 </a>
             </li>
         </ul>
