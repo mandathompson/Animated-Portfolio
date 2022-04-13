@@ -1,7 +1,6 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -13,28 +12,27 @@ const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoS} alt="logo" />
-            <img src={LogoSubtitle} alt="logo" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="#fd1952" />
+                <FontAwesomeIcon icon={faHome} color="#F535AA" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faUser} color="#fd1952" />
+                <FontAwesomeIcon icon={faUser} color="#F535AA" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#fd1952" />
+                <FontAwesomeIcon icon={faEnvelope} color="#F535AA" />
             </NavLink>
         </nav>
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/amanda-r-thompson/'>
-                    <FontAwesomeIcon icon={faLinkedin} color="#fd1952" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#F535AA" />
                 </a>
             </li>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://github.com/mandathompson'>
-                    <FontAwesomeIcon icon={faGithub} color="#fd1952" />
+                    <FontAwesomeIcon icon={faGithub} color="#F535AA" />
                 </a>
             </li>
         </ul>
