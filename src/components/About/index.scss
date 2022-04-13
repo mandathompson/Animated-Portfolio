@@ -24,17 +24,16 @@
       height: 200px;
       border: 1px solid #ccc;
       background: rgba(255, 255, 255, 0.4);
-      text-align: center;
       font-size: 100px;
       display: flex;
       justify-content: center;
       align-items: center;
-      box-shadow: 0 0 20px 0px lightyellow;
+      box-shadow: 0 0 20px 0px rgb(178, 252, 246);
     }
   
     .face1 {
       transform: translateZ(100px);
-      color: #dd0031;
+      color: #F535AA;
     }
     .face2 {
       transform: rotateY(90deg) translateZ(100px);
